@@ -15,6 +15,11 @@ html{
 body{
     font-family: 'Outfit', sans-serif;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--clr-light-gray);
+    min-height: 100vh;
 }
 h1{
     color: var(--clr-dark-blue);
@@ -23,29 +28,20 @@ h1{
 p{
     font-size: 0.975rem;
     color: var(--clr-grayish-blue);
-    padding: 1rem;
-    padding-top: 0;
-}
-main{
-    width: 100vw;
-    height: 100vh;
-    background: var(--clr-light-gray);
+    margin: 1rem;
+    margin-bottom: 0;
+    padding: 0 0.5rem;
 }
 .qr-container{
     background-color: #f3f3f3;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-    height: 450px;
+    max-width: 350px;
     padding: 1rem;
     border-radius: 10px;
 }
 
 img{
     height:250px ;
-    width: 280px;
+    width: 250px;
     border-radius: 10px;
     object-fit: cover;
 }
